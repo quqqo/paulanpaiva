@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Alata|Didact+Gothic|Inknut+Antiqua:300,400,500,600,700,800,900|Josefin+Sans:400,400i,600,600i,700,700i|Nova+Cut|Reenie+Beanie|Work+Sans:400,500,600,700,800,900|ZCOOL+XiaoWei&display=swap');
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work sans', sans-serif;
+	color: #333333;
+	background-color: #333333;
 	text-align: center;
+	margin: 0;
 }
 
 #header{
@@ -15,18 +19,27 @@ body{
 	background-image: url("Resources/PP.jpg");
 	min-width: 100%;
 	min-height: 100%;
-	background-position: center;
-	background-position-y: 15%;
+	background-position: 50%;
+	background-position-y: 10%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
+	/* position: relative; */
+	margin-bottom: 40;
 }
 
 #hero-text {
-  	font-family: 'Frank Ruhl Libre', serif;
-	font-size: 7em;
+	/* font-family: 'Alata', sans-serif; */
+	/* font-family: 'Josefin Sans', sans-serif; */
+	font-family: 'Inknut Antiqua', serif;
+	/* font-family: 'Frank Ruhl Libre', serif; */
+	/* font-family: 'Work Sans', sans-serif; */
+	/* font-family: 'ZCOOL XiaoWei', serif; */
+	/* font-family: 'Nova Cut', cursive; */
+	/* font-weight: 500; */
+	font-size: 6em;
+	line-height: 1.2em;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
@@ -66,18 +79,20 @@ body{
 	font-size: 30px;
 }
 
-
-.section{
-	padding-top: 70px;
-	padding-bottom: 70px;
+.section-light{
+	padding-top: 40px;
+	padding-bottom: 40px;
 	font-size: 1em;
+	background-color: #333333;
+	color: #FAFAFA;
 }
 
-.light{
-}
-
-.dark{
-	background-color: #232323;
+.section-dark{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 1em;
+	background-color: #333333;
+	/* background-color: #222222; */
 	color: #FAFAFA;
 }
 
@@ -86,6 +101,8 @@ body{
 	max-width: 1200;
 	margin: auto;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	/* margin-top: 60px; */
+	/* margin-bottom: 60px; */
 }
 
 .biisit-grid-con2{
@@ -95,8 +112,7 @@ body{
 }
 
 .biisit-grid-item{
-/*	border: 1px solid rgba(0, 0, 0, 0.8);*/
-	margin: 1px;
+	margin-bottom: 0px;
 }
 
 #biisi-grid{
@@ -108,10 +124,12 @@ body{
 }
 
 .biisi{
-	font-weight: bold;
+	margin:0px;
 }
 
 .artisti{
+	margin-top: 3px;
+	font-size: 0.8em;
 }
 
 .grid-container {
@@ -130,8 +148,17 @@ body{
 
 #footer{
 	font-size: 0.8em;
+	margin-bottom: 80px;
 }
 
 #email{
+	font-family: 'Inknut Antiqua', serif;
 	font-size: 3em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+#email:hover{
+	color: #aaaaaaf;
 }
