@@ -3,11 +3,7 @@
 
 body{
 	font-family: 'Work sans', sans-serif;
-<<<<<<< HEAD
 	color: #FFFFFF;
-=======
-	color: #333333;
->>>>>>> e61631b685b5b97626c4d59d3c75222523cd5a21
 	background-color: #333333;
 	text-align: center;
 	margin: 0;
@@ -27,14 +23,9 @@ body{
 	background-position-y: 10%;
 	background-repeat: no-repeat;
 	background-size: cover;
-<<<<<<< HEAD
 	margin-bottom: 40;
 	position: fixed;
 	z-index: -1;
-=======
-	/* position: relative; */
-	margin-bottom: 40;
->>>>>>> e61631b685b5b97626c4d59d3c75222523cd5a21
 }
 
 #hero-text {
@@ -100,7 +91,13 @@ body{
 	font-size: 30px;
 }
 
-<<<<<<< HEAD
+.youtube-clip {
+	width:80%;
+	max-width: 1080px;
+	min-width: 360px;
+	margin:0 auto;
+}
+
 .section{
 	padding: 15vh 0px;
 }
@@ -108,27 +105,19 @@ body{
 .story-box{
 	max-width: 600px;
 	padding-top: 10vh;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin: 0px auto;
 	line-height: 2em;
 	font-size: 1.3em;
 	font-weight: 300;
-=======
-.section-light{
-	padding-top: 40px;
-	padding-bottom: 40px;
-	font-size: 1em;
-	background-color: #333333;
-	color: #FAFAFA;
 }
 
-.section-dark{
-	padding-top: 40px;
-	padding-bottom: 40px;
-	font-size: 1em;
-	background-color: #333333;
-	/* background-color: #222222; */
-	color: #FAFAFA;
->>>>>>> e61631b685b5b97626c4d59d3c75222523cd5a21
+#biisit-h1{
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 5vh;
 }
 
 .biisit-grid-con1{
@@ -183,11 +172,7 @@ body{
 
 #footer{
 	font-size: 0.8em;
-<<<<<<< HEAD
 	padding-bottom: 20vh;
-=======
-	margin-bottom: 80px;
->>>>>>> e61631b685b5b97626c4d59d3c75222523cd5a21
 }
 
 #email{
@@ -196,15 +181,8 @@ body{
 	font-weight: bold;
 	text-decoration: none;
 	color: #eeeeee;
-<<<<<<< HEAD
 }
 
 #email:hover{
 	color: #666666;
-=======
->>>>>>> e61631b685b5b97626c4d59d3c75222523cd5a21
-}
-
-#email:hover{
-	color: #aaaaaaf;
 }
