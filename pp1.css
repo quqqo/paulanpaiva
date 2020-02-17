@@ -16,9 +16,9 @@ body{
 }
 
 #hero-image{
-	background-image: url("Resources/PP.jpg");
-	min-width: 100%;
-	min-height: 100%;
+	background-image: url("Resources/1920_PP.jpg");
+	min-width: 100vh;
+	min-height: 100vh;
 	background-position: 50%;
 	background-position-y: 10%;
 	background-repeat: no-repeat;
@@ -83,10 +83,28 @@ body{
 	margin: auto;
 	max-width: 1200;
 	grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
-	padding: 10px;
+	padding: 100px;
+	background: radial-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0));
+}
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .video-grid-item {
+
 	padding: 20px;
 	font-size: 30px;
 }
