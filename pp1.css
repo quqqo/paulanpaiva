@@ -17,7 +17,7 @@ body{
 
 #hero-image{
 	background-image: url("Resources/1920_PP.jpg");
-	min-width: 100vh;
+	min-width: 100%;
 	min-height: 100vh;
 	background-position: 50%;
 	background-position-y: 10%;
